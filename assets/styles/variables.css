@@ -1,0 +1,19 @@
+/** Variables **/
+
+:root{
+    --page--bg:#3B4664;
+    --calc-display-bg:#181F32;
+    --calc-btn-wrapper:#252D44;
+    --calc-btn-value:#EAE3DB;
+    --calc-btn-clear:#647299;
+    --calc-btn-equal:#D13F30;
+}
+
+
+/** fonts **/
+
+@font-face {
+    font-family: inter;
+    src: url("../fonts/Inter-ExtraBold.ttf");
+    font-display: swap;
+}
