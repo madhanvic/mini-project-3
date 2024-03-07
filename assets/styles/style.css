@@ -36,7 +36,7 @@ main{
     margin-bottom: 0.5rem;
 }
 
-.calc .calc__display input{
+.calc  input{
     width: 100%;
     background-color: var(--calc-display-bg);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,7 +49,9 @@ main{
     -webkit-box-shadow: inset 0px 0px 9px 1px rgba(24,31,50,1);
 -moz-box-shadow: inset 0px 0px 9px 1px rgba(24,31,50,1);
 box-shadow: inset 0px 0px 9px 1px rgba(24,31,50,1);
+transition: all 0.4s;
 }
+
 
 .calc .calc__btnWrappers{
     background-color: var(--calc-btn-wrapper);
@@ -69,6 +71,8 @@ box-shadow: inset 0px 0px 9px 1px rgba(37,45,68,1);
   font-weight: 500;
   font-size: 2.4rem;
   padding-block: 1rem;
+  text-align: center;
+  cursor: pointer;
 }
 
 .calc .calc__btnWrappers .calc__btn[value="7"]{
